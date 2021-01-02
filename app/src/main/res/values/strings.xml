@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GlobalServiceProject</string>
+    <string name="android">Android</string>
+    <string name="remove">Remove</string>
+    <string name="employee_email">Employee Email</string>
+    <string name="ios">iOS</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_editext"
+        android:hint="@string/employee_email"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/black" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/swEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:checked="true"
+        android:padding="5dp"
+        android:text="@string/remove"
+        android:textColor="@android:color/black" />
+</LinearLayout>
